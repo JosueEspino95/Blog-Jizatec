@@ -1,5 +1,89 @@
-body{
 
-background-color: black;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 
 }
+
+.encabezado {
+
+    background-color: #111111;
+    
+    height: 20vh;
+    min-height: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.barra{
+
+    display: flex;
+    padding: 50px;
+    
+}
+
+.menu{
+    display: flex;
+
+
+}
+
+.encabezado img {
+
+    margin-left: 50px;
+    margin-top: 15px;
+
+}
+
+.menu a {
+    color: #ffffff;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.menu a:hover{
+
+    color: #5BC0EB;
+
+}
+
+.search-blog{
+
+    display: flex;
+
+}
+.search-blog img {
+
+    height: 20px;
+    
+}
+
+.footer-blog {
+    height: 10vh ;
+    background-color: #111111;
+
+}
+
+.vistaprevia{
+    
+    display: flex;
+    
+
+}
+
+.vistaprevia img{
+
+    
+    
+}
+
+.vistaprevia2{
+   
+    
+    
+}
+
+
