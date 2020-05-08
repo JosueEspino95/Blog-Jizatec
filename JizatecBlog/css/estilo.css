@@ -7,9 +7,7 @@ body{
 .encabezado {
 
     background-color: #111111;
-    
     height: 20vh;
-    min-height: 50px;
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
@@ -22,17 +20,10 @@ body{
     padding: 50px;
     
 }
-
-.menu{
-    display: flex;
-
-
-}
-
 .encabezado img {
 
     margin-left: 50px;
-    margin-top: 15px;
+    
 
 }
 
@@ -55,20 +46,21 @@ body{
     display: flex;
 
 }
-.search-blog img {
 
-    height: 20px;
-    
-}
+@media (max-width: 700px){
 
-.footer-blog {
-    height: 10vh ;
-    background-color: #111111;
+    .barra{
+        
+        display: block;
+        
+    }
+
+
 
 }
 
 .vistaprevia{
-    
+
     display: flex;
     
 
@@ -76,14 +68,55 @@ body{
 
 .vistaprevia img{
 
-    
-    
-}
+    height: 220px;
+    margin: 5px;
 
-.vistaprevia2{
-   
-    
-    
 }
 
 
+.contenedor{
+    width: 40%;
+    border-right:#656362 2px solid;
+    border-top:#656362 2px solid;
+    border-bottom: #D9D7D6 2px solid;    
+    margin: 50px 0px 50px 50px;
+    float: left;
+    
+}
+
+.reciente
+{
+    margin-left: 200px;
+}
+.contenedor img{
+
+    display: block;
+    margin-top: 30px;
+
+}
+
+.contenido {
+    display: flex;
+    
+}
+
+.contenido p{
+    font-size:  1rem;
+    margin: 0px 30px 30px 30px;
+
+}
+
+.contenedor h1{
+
+    font-size: 20px;
+    border-bottom: #656362 2px solid;
+    padding: 10px;
+    
+
+}
+
+.footer-blog {
+    height: 10vh ;
+    background-color: #111111;
+    bottom: 0px;
+}
