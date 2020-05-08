@@ -1,4 +1,9 @@
 
+html{
+ font-size: 62.5%;
+
+
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
 
@@ -58,65 +63,83 @@ body{
 
 
 }
-
 .vistaprevia{
 
     display: flex;
+
+
+}
+
+.bloque{
+    width: 50rem;
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
     
-
 }
 
-.vistaprevia img{
-
-    height: 220px;
-    margin: 5px;
-
+.bloque a{
+    
+    
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: #5BC0EB;
+    text-decoration: none;
+    padding: .5rem;
+    border-radius: 1rem;
+    
 }
 
+.contenido-principal{
+
+    display: flex;
+
+
+}
 
 .contenedor{
-    width: 40%;
-    border-right:#656362 2px solid;
-    border-top:#656362 2px solid;
-    border-bottom: #D9D7D6 2px solid;    
-    margin: 50px 0px 50px 50px;
-    float: left;
+    width: 50%;
+    border-right:  #918F8F 2px solid;
+    border-top:    #918F8F 2px solid;
+    border-bottom: #918F8F 2px solid;    
+    margin-top: 7rem;
+    margin-right: 20rem;
+}
+
+
+.reciente{
+    width: 30%;
+    border-top:  #918F8F 2px solid;
+    border-left: #918F8F 2px solid;
+    border-bottom: #918F8F 2px solid;
+    margin-top: 70px;
     
 }
 
-.reciente
-{
-    margin-left: 200px;
-}
-.contenedor img{
-
-    display: block;
-    margin-top: 30px;
-
-}
 
 .contenido {
     display: flex;
-    
+    padding: 10px;
 }
 
 .contenido p{
-    font-size:  1rem;
-    margin: 0px 30px 30px 30px;
+    
+    font-size:  1.5rem;
+    color: #918F8F;
+    margin-left: 10px;
 
 }
 
-.contenedor h1{
-
+h1{ 
     font-size: 20px;
-    border-bottom: #656362 2px solid;
-    padding: 10px;
-    
-
+    border-bottom: #918F8F 2px solid;
+    padding: 10px;  
 }
 
 .footer-blog {
     height: 10vh ;
     background-color: #111111;
-    bottom: 0px;
+    
 }
+
