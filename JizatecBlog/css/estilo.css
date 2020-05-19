@@ -2,17 +2,18 @@
 html{
  font-size: 62.5%;
 
-
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
+img{
+    max-width: 100%;
+}
 
 .encabezado {
-
+    width: 100%;
     background-color: #111111;
     height: 20vh;
     margin-bottom: 30px;
@@ -34,37 +35,43 @@ body{
 
 }
 
-.menu a {
+ul, ol{
+list-style: none;
+}
+
+.menu .list{
+    display: flex;
+
+}
+.menu .list li a{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111111;
     color: #ffffff;
     margin-right: 50px;
-    text-decoration: none;
     font-size: 15px;
+    text-decoration: none;
+    padding: 10px 15px;
 
 }
 
-.menu a:hover{
+.menu .list a:hover{
 
     color: #5BC0EB;
 
 }
+    .list li ul {
+        display: none;
+        position: absolute;
+        margin-top: 2rem;
 
-.search-blog{
-
-    display: flex;
-
-}
-
-@media (max-width: 700px){
-
-    .barra{
-        
-        display: block;
-        
     }
 
+  .menu li:hover ul{
 
+    display: block;
 
-}
+  }  
+
 .vistaprevia{
 
     display: flex;
@@ -80,6 +87,16 @@ body{
     margin: 1rem;
 }
 
+@media  (max-width: 768px){
+
+    .vistaprevia{
+
+        display: block;
+        margin-left: 20px;
+    
+}
+
+
 .bloque a{
 
     position: relative;
@@ -91,7 +108,7 @@ body{
     border-radius: 1rem;
     top: 25rem;
     margin: 1rem;
-    
+
 }
 
 .button a{
@@ -107,9 +124,10 @@ body{
 .contenido-principal{
 
     display: flex;
-
     
 }
+
+
 
 .contenedor{
     width: 50%;
@@ -131,6 +149,18 @@ body{
     margin-top: 7rem;
     margin-bottom: 7rem;
     
+}
+
+
+
+@media (max-width: 768px){
+    .contenido-principal{
+
+
+        display: block;
+    }
+
+
 }
 
 
@@ -160,4 +190,5 @@ body{
     background-color: #111111;
     
 }
+
 
