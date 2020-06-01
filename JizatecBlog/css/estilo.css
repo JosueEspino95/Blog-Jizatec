@@ -42,7 +42,7 @@ img{
     border-radius: 1rem;
 }
 
-.contenedor-header img{
+.contenedor-header a img{
 
     width: 200px;
     
@@ -124,7 +124,7 @@ img{
         position: absolute;    
         z-index: 10;
         background-color: #ffffff;
-        top: 100px;
+        top: 90px;
         width: 100%;
         text-align: center;
         transform: translateX(-100%);
@@ -156,13 +156,6 @@ img{
 
     }
 
-    .vistaprevia {
-        display: none;
-        padding: 0px;
-        margin: 0px;
-
-    }
-
 }
 
 .vistaprevia{
@@ -184,6 +177,18 @@ img{
 
 
 @media  (max-width: 768px){
+    .vistaprevia {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .bloque{
+
+        width: 100%;
+        margin: 0px;
+
+    }
 
     .contenedor-header{
         width: 100%;
@@ -311,3 +316,21 @@ img{
 }
 
 
+.view-red {
+    background-image: url(/images/redes.jpg);
+    margin: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    padding-top: 160px;
+    height: 200px;   
+}
+
+.view-red p {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #73706F;
+    opacity: 0.6;
+    
+}
